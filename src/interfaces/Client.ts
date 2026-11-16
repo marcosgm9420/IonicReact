@@ -1,7 +1,7 @@
+// Coincide con las columnas de la tabla "clients" de Supabase
 export interface Client {
   id?: number;
-  nombre: string;
+  name: string;
   email: string;
-  telefono?: string;
-  created_at?: string;
+  phone?: string;
 }
